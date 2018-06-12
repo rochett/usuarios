@@ -2,22 +2,22 @@
 
 <?php
 
-$nome = $form->get('nome');
-$nome->setAttribute('class', 'form-control');
+    $nome = $form->get('nome');
+    $nome->setAttribute('class', 'form-control');
 
-$email = $form->get('email');
-$email->setAttribute('class', 'form-control');
+    $email = $form->get('email');
+    $email->setAttribute('class', 'form-control');
 
-$senha = $form->get('senha');
-$senha->setAttribute('class', 'form-control');
+    $senha = $form->get('senha');
+    $senha->setAttribute('class', 'form-control');
 
-$submit = $form->get('submit');
-$submit->setAttribute('class', 'btn btn-primary');
+    $submit = $form->get('submit');
+    $submit->setAttribute('class', 'btn btn-primary');
 
-$form->setAttribute('action', $this->url('user', ['action'=>'edit', 'id'=>$id]));
-$form->prepare();
+    $form->setAttribute('action', $this->url('user', ['action'=>'edit', 'id'=>$id]));
+    $form->prepare();
 
-echo $this->form()->openTag($form);
+    echo $this->form()->openTag($form);
 
 ?>
 
@@ -37,10 +37,10 @@ echo $this->form()->openTag($form);
 </div>
 <div>
     <?php
-        echo $this->formSubmit($submit);
-        echo $this->formHidden($form->get('id'));
-        echo $this->form()->closeTag();
+    echo $this->formSubmit($submit);
+    echo $this->formHidden($form->get('id'));
+    echo $this->form()->closeTag();
     ?>
     &nbsp;<a class="btn btn-danger" href="<?=$this->url('user'); ?>">
-    <span class="glyphicon glyphicon-circle-arrow-left">&nbsp;Retotnar</a>
+        <span class="glyphicon glyphicon-circle-arrow-left">&nbsp;Retotnar</a>
 </div>
