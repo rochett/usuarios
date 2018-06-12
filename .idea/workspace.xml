@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1921e188-4c3b-42e3-aa37-12ecd88279bb" name="Default" comment="" />
+    <list default="true" id="1921e188-4c3b-42e3-aa37-12ecd88279bb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/users.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Users/src/Form/UserForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Users/src/Form/UserForm.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +61,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserForm.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserForm.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/Users/src/Form/UserForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="408">
+              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Users/src/Model/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -68,7 +82,7 @@
       <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Users/src/Controller/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
+            <state relative-caret-position="697">
               <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
               <folding>
                 <element signature="e#119#143#0#PHP" expanded="true" />
@@ -80,7 +94,7 @@
       <file leaf-file-name="UserTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Users/src/Model/UserTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="799">
               <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
               <folding>
                 <element signature="e#113#152#0#PHP" expanded="true" />
@@ -89,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -118,6 +132,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -128,14 +145,14 @@
         <option value="$PROJECT_DIR$/config/application.config.php" />
         <option value="$PROJECT_DIR$/module/Users/config/module.config.php" />
         <option value="$PROJECT_DIR$/config/modules.config.php" />
-        <option value="$PROJECT_DIR$/module/Users/src/Form/UserForm.php" />
-        <option value="$PROJECT_DIR$/module/Users/src/Model/User.php" />
         <option value="$PROJECT_DIR$/data/schema.sql" />
         <option value="$PROJECT_DIR$/module/Users/view/users/users/add.phtml" />
         <option value="$PROJECT_DIR$/module/Users/view/users/users/edit.phtml" />
         <option value="$PROJECT_DIR$/module/Users/src/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/module/Users/src/Model/UserTable.php" />
         <option value="$PROJECT_DIR$/module/Users/view/users/users/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Users/src/Model/User.php" />
+        <option value="$PROJECT_DIR$/module/Users/src/Form/UserForm.php" />
       </list>
     </option>
   </component>
@@ -189,6 +206,7 @@
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -319,12 +337,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528725415319</updated>
-      <workItem from="1528725418114" duration="30849000" />
+      <workItem from="1528725418114" duration="34457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30849000" />
+    <option name="totallyTimeSpent" value="34457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -334,7 +352,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32868218" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -438,17 +456,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Users/src/Form/UserForm.php">
+    <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Users/src/Model/User.php">
+    <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+        <state relative-caret-position="306">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -459,16 +477,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/edit.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Users/src/Controller/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
+        <state relative-caret-position="697">
           <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
           <folding>
             <element signature="e#119#143#0#PHP" expanded="true" />
@@ -478,7 +489,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Users/src/Model/UserTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="799">
           <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
           <folding>
             <element signature="e#113#152#0#PHP" expanded="true" />
@@ -486,10 +497,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/index.phtml">
+    <entry file="file://$PROJECT_DIR$/module/Users/src/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="81">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Users/src/Form/UserForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
         </state>
       </provider>
     </entry>

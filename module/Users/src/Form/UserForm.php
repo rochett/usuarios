@@ -27,7 +27,11 @@ class UserForm extends Form
             'type' => 'text',
             'options' => [
                 'label' => 'Nome'
-            ]
+            ],
+            'attributes' => array(
+                'placeholder' => 'Informe o NOME do Usuario',
+                'required' => true
+            )
         ]);
 
         $this->add([
@@ -35,7 +39,11 @@ class UserForm extends Form
             'type' => 'text',
             'options' => [
                 'label' => 'E-mail'
-            ]
+            ],
+            'attributes' => array(
+                'placeholder' => 'Informe o E-MAIL do Usuario',
+                'required' => true
+            )
         ]);
 
         $this->add([
@@ -43,7 +51,11 @@ class UserForm extends Form
             'type' => 'text',
             'options' => [
                 'label' => 'Senha'
-            ]
+            ],
+            'attributes' => array(
+                'placeholder' => 'Informe a SENHA do Usuario',
+                'required' => true
+            )
         ]);
 
         $this->add([
@@ -55,4 +67,5 @@ class UserForm extends Form
             ]
         ]);
     }
+
 }
