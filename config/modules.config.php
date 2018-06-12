@@ -13,6 +13,7 @@
 return [
     'Zend\Db',
     'Zend\Form',
+    'Zend\Session',
     'Zend\Router',
     'Zend\Validator',
     'Application',

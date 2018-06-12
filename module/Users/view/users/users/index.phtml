@@ -7,7 +7,8 @@ $this->headTitle("Users");
 <h1>Users</h1>
 
 <p>
-    <a href="<?=$this->url('user', ['action'=>'add']); ?>">Cadastrar</a>
+    <a class="btn btn-success" href="<?=$this->url('user', ['action'=>'add']); ?>">
+        <span class="glyphicon glyphicon-user">&nbsp;Cadastrar</a>
 </p>
 
 <table class="table">
@@ -23,8 +24,10 @@ $this->headTitle("Users");
             <td><?=$this->escapeHtml($user->email); ?></td>
             <td><?=$this->escapeHtml($user->senha); ?></td>
             <td>
-                <a href="<?=$this->url('user', ['action'=>'edit', 'id'=>$user->id]); ?>">Editar</a>
-                <a href="<?=$this->url('user', ['action'=>'delete', 'id'=>$user->id]); ?>">Excluir</a>
+                <a class="btn btn-info" href="<?=$this->url('user', ['action'=>'edit', 'id'=>$user->id]); ?>">
+                    <span class="glyphicon glyphicon-pencil"></span>&nbsp;Editar</a>
+                <a class="btn btn-danger" href="<?=$this->url('user', ['action'=>'delete', 'id'=>$user->id]); ?>">
+                    <span class="glyphicon glyphicon-trash">&nbsp;Excluir</a>
             </td>
         </tr>
     <?php endforeach; ?>

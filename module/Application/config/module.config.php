@@ -7,6 +7,7 @@
 
 namespace Application;
 
+use Users\Controller\UsersController;
 use Zend\Router\Http\Literal;
 use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
@@ -33,6 +34,20 @@ return [
                         'action'     => 'index',
                     ],
                 ],
+            ],
+            'user' => [
+                'type' => 'segment',
+                'options' => [
+                    'route' => '/users[/:action[/:id]]',
+                    'constraints' => [
+                        'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
+                        'id' => '[0-9]+',
+                    ],
+                    'defaults' => [
+                        'controller' => UsersController::class,
+                        'action' => 'index'
+                    ]
+                ]
             ],
         ],
     ],
