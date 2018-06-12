@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1921e188-4c3b-42e3-aa37-12ecd88279bb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/data/users.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Users/src/Form/UserForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Users/src/Form/UserForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module/Users/view/users/users/add.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Users/view/users/users/add.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module/Users/view/users/users/edit.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Users/view/users/users/edit.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Users/view/users/users/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Users/view/users/users/index.phtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,58 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Users/src/Controller/UsersController.php">
+      <file leaf-file-name="UserForm.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Users/src/Form/UserForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Module.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/Users/src/Module.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/edit.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="e#933#939#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-              <folding>
-                <element signature="e#190#196#0#HTML" expanded="true" />
-                <element signature="e#700#706#0#HTML" expanded="true" />
-                <element signature="e#886#892#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/add.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#921#927#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -133,7 +85,6 @@
         <option value="$PROJECT_DIR$/module/Users/config/module.config.php" />
         <option value="$PROJECT_DIR$/data/schema.sql" />
         <option value="$PROJECT_DIR$/module/Users/src/Model/User.php" />
-        <option value="$PROJECT_DIR$/module/Users/src/Form/UserForm.php" />
         <option value="$PROJECT_DIR$/module/Users/src/Form/BuscaForm.phtml" />
         <option value="$PROJECT_DIR$/module/Users/src/Form/BuscaForm.php" />
         <option value="$PROJECT_DIR$/module/Users/src/Model/UserTable.php" />
@@ -143,9 +94,10 @@
         <option value="$PROJECT_DIR$/module/Users/src/Form/LoginForm.php" />
         <option value="$PROJECT_DIR$/config/modules.config.php" />
         <option value="$PROJECT_DIR$/module/Users/src/Controller/LoginController.php" />
-        <option value="$PROJECT_DIR$/module/Users/view/users/users/add.phtml" />
         <option value="$PROJECT_DIR$/module/Users/view/users/users/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Users/view/users/users/add.phtml" />
         <option value="$PROJECT_DIR$/module/Users/view/users/users/edit.phtml" />
+        <option value="$PROJECT_DIR$/module/Users/src/Form/UserForm.php" />
       </list>
     </option>
   </component>
@@ -246,6 +198,14 @@
               <item name="usuarios" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
               <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usuarios" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usuarios" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -334,7 +294,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40340000" />
+    <option name="totallyTimeSpent" value="40590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -648,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Users/src/Form/UserForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Users/src/Controller/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -669,20 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/add.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#921#927#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state>
+          <caret selection-end-column="35" />
           <folding>
             <element signature="e#190#196#0#HTML" expanded="true" />
             <element signature="e#700#706#0#HTML" expanded="true" />
@@ -691,13 +634,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/add.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#921#927#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module/Users/view/users/users/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
           <folding>
             <element signature="e#933#939#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Users/src/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -708,10 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Users/src/Module.php">
+    <entry file="file://$PROJECT_DIR$/module/Users/src/Form/UserForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="357">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
         </state>
       </provider>
     </entry>

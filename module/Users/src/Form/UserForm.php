@@ -36,7 +36,7 @@ class UserForm extends Form
 
         $this->add([
             'name' => 'email',
-            'type' => 'text',
+            'type' => 'email',
             'options' => [
                 'label' => 'E-mail'
             ],
