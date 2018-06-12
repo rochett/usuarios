@@ -2,17 +2,7 @@
 
 namespace Users;
 
-use Zend\ServiceManager\Factory\InvokableFactory;
-
 return [
-
-    'controllers' => [
-        'factories' => [
-            #Controller\UsersController::class => InvokableFactory::class
-        ]
-
-
-    ],
     'router' => [
         'routes' => [
             'user' => [
